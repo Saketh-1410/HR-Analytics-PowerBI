@@ -89,5 +89,5 @@ HR-Analytics-PowerBI/
 
 ## Author
 
-**Pinnelli Shashank Reddy**
+**Saketh Reddy**
 [GitHub](https://github.com/Saketh-1410)
