@@ -1,0 +1,30 @@
+# Windows thumbnails and system files
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# macOS
+.DS_Store
+
+# Power BI Desktop local cache
+*.abf
+*.asdatabase
+*.deploymentoptions
+
+# Temp / log files
+*.log
+*.tmp
+~$*
+
+# Python / Jupyter artefacts (if any EDA notebooks exist)
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment / credentials — NEVER commit these
+.env
+*.env
+credentials.json
+secrets.json
+*.key
+*.pem
