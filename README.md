@@ -93,11 +93,30 @@ No personally identifiable information (PII) is present in this dataset.
 
 ---
 
+## Exploratory Data Analysis (Python)
+
+A companion Jupyter notebook performs statistical EDA on the same dataset:
+
+- **Data quality check** — missing values, duplicates, constant columns
+- **Univariate analysis** — distributions of age, income, tenure, and satisfaction scores
+- **Bivariate analysis** — attrition rate by department, job role, overtime, marital status, and satisfaction scores
+- **Correlation heatmap** — Pearson correlations of all numerical features with attrition
+- **Chi-square tests** — statistical significance of categorical features vs attrition
+- **Key insights summary** — printed findings with computed values
+
+Open `HR_Analytics_EDA.ipynb` in Jupyter Notebook or VS Code to run it.  
+Install dependencies: `pip install pandas numpy matplotlib seaborn scipy`
+
+---
+
 ## Repository Structure
 
 ```
 HR-Analytics-PowerBI/
 ├── HR_Analytics_Dashboard.pbix   # Power BI report file (data embedded)
+├── HR_Analytics_EDA.ipynb        # Python EDA notebook
+├── data/
+│   └── HR_Employee_Attrition.csv # IBM HR dataset (1,470 rows, no PII)
 ├── screenshots/
 │   ├── dashboard_page1.png       # HR Analytics Dashboard overview
 │   └── dashboard_page2.png       # Interactive HR Analysis page
